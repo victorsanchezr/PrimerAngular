@@ -1,0 +1,27 @@
+<ul style="list-style: none;margin-top: 120px;">
+    <li style="margin: 20px;">
+        <label style="margin: 20px;">Descripcion</label>
+        <input placeholder="text" type="Descripcion" [(ngModel)]="descripcion" style="box-sizing: border-box; width: 420px;"    >
+    </li>
+    <li style="margin: 20px;">
+        <label style="margin: 20px;" >Codigo</label>
+        <input placeholder="codigo" type="text" [(ngModel)]="codigo" style="box-sizing: border-box;">
+        <label style="margin: 20px;" >Preciocosto</label>
+        <input placeholder="preciocosto" type="text" [(ngModel)]="preciocosto" style="box-sizing: border-box;width: 165px;">
+
+    </li>
+    <li style="margin: 20px;">
+        <label style="margin: 20px;" >Precioventa</label>
+        <input placeholder="precioventa" type="text" [(ngModel)]="precioventa" style="box-sizing: border-box;width: 140px;">
+        <label style="margin: 20px;" >Stockiedal</label>
+        <input placeholder="stockiedal" type="text" [(ngModel)]="stock" style="box-sizing: border-box; width: 175px;">
+    </li>
+
+    <li style="margin-left: 40px;">
+        
+        <button (click)="botonverificar()">Ingresar</button>
+        {{res}}
+ 
+    </li>
+</ul>
+
